@@ -1,0 +1,14 @@
+{
+    "headers": [
+        {
+            "name": "Getting Started",
+            "slug": null,
+            "child": [
+                {
+                    "name": "Introduction",
+                    "link": "introduction"
+                }
+            ]
+        }
+    ]
+}
