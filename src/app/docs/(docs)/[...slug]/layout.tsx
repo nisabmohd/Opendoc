@@ -7,7 +7,7 @@ type DocsLayoutProps = {
 
 export default function DocsLayout({ children }: DocsLayoutProps) {
     return (
-        <div className="flex flex-col gap-5 w-100">
+        <div className="flex flex-col w-100">
             <Navbar />
             <div className="container m-auto">
                 {children}

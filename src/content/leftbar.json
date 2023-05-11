@@ -2,11 +2,111 @@
     "headers": [
         {
             "name": "Getting Started",
-            "slug": null,
+            "slug": "getting-started",
             "child": [
                 {
                     "name": "Introduction",
                     "link": "introduction"
+                }
+            ]
+        },
+        {
+            "name": "Documentation",
+            "slug": "documentation",
+            "child": [
+                {
+                    "name": "Introduction",
+                    "link": "introduction"
+                },
+                {
+                    "name": "Content Layer",
+                    "link": null
+                },
+                {
+                    "name": "Components",
+                    "link": "components"
+                },
+                {
+                    "name": "Code Blocks",
+                    "link": "code-blocks"
+                },
+                {
+                    "name": "Style Guide",
+                    "link": "style-guide"
+                },
+                {
+                    "name": "Search",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "name": "Blog",
+            "slug": null,
+            "child": [
+                {
+                    "name": "Introduction",
+                    "link": null
+                },
+                {
+                    "name": "Build your own",
+                    "link": null
+                },
+                {
+                    "name": "Writing Posts",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "name": "Dashboard",
+            "slug": null,
+            "child": [
+                {
+                    "name": "Introduction",
+                    "link": null
+                },
+                {
+                    "name": "Layouts",
+                    "link": null
+                },
+                {
+                    "name": "Server Components",
+                    "link": null
+                },
+                {
+                    "name": "Authentication",
+                    "link": null
+                },
+                {
+                    "name": "Database with Prisma",
+                    "link": null
+                },
+                {
+                    "name": "TRPC server",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "name": "Marketing Site",
+            "slug": null,
+            "child": [
+                {
+                    "name": "Introduction",
+                    "link": null
+                },
+                {
+                    "name": "Amazon",
+                    "link": null
+                },
+                {
+                    "name": "Stripe",
+                    "link": null
+                },
+                {
+                    "name": "GraphQl",
+                    "link": null
                 }
             ]
         }

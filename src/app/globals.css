@@ -23,3 +23,11 @@
 .smaller {
   font-size: 13.5px !important;
 }
+
+.flex-half {
+  flex: .75
+}
+
+.half-half-more {
+  flex: 3.25;
+}
