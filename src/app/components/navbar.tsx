@@ -4,8 +4,8 @@ import { github, logo } from "../assets/Images";
 
 export default function Navbar() {
     return (
-        <div className="h-16 border-b-2 border-gray-200 sticky top-0 bg-white">
-            <div className="container px-16 m-auto flex flex-row justify-between items-center h-full">
+        <div className="h-16 border-b-2 border-gray-200 sticky top-0 bg-white z-40">
+            <div className="container px-28 m-auto flex flex-row justify-between items-center h-full">
                 <div className="flex flex-row items-center gap-10 w-fit">
                     <div className="logo flex flex-row gap-2">
                         <span>{logo}</span>
