@@ -18,7 +18,8 @@ export default function () {
                 <div className="left-md leading-8" style={{ width: '68%' }}>
                     <h1 className="text-5xl font-bold my-5">Styling Guide</h1>
                     <p className="text-xl text-slate-500 w-full border-b-2 border-gray-200 pb-3 mb-4">Testing the MDX style guide with Tailwind Typography</p>
-                    If you have worked with HTML or CSS already, e.g., by working through these tutorials in order, then you know that text inside an element is laid out inside the element's content box. It starts at the top left of the content area , and flows towards the end of the line. Once it reaches the end, it goes down to the next line and flows to the end again. This pattern repeats until all the content has been placed in the box. Text content effectively behaves like a series of inline elements, being laid out on lines adjacent to one another, and not creating line breaks until the end of the line is reached, or unless you force a line break manually using the br element.
+                    If you have worked with HTML or CSS already, e.g., by working through these tutorials in order, then you know that text inside an element is laid out inside the element's content box.
+                    It starts at the top left of the content area , and flows towards the end of the line. Once it reaches the end, it goes down to the next line and flows to the end again. This pattern repeats until all the content has been placed in the box. Text content effectively behaves like a series of inline elements, being laid out on lines adjacent to one another, and not creating line breaks until the end of the line is reached, or unless you force a line break manually using the br element.
                     <Image
                         src="/styling-md.png"
                         alt="styling"
@@ -30,8 +31,42 @@ export default function () {
                     <br /><br />
                     Dolor, necessitatibus ipsum esse, error velit veritatis eaque similique cum dolorem nobis quidem libero illum, exercitationem natus distinctio debitis? Omnis repudiandae hic aperiam veniam doloremque id corrupti quia a inventore vero, numquam ab consectetur, commodi quae quasi rem suscipit nostrum laborum earum ut deleniti adipisci, dignissimos ratione. Est adipisci ratione, mollitia ab velit ullam aliquam voluptate porro. Explicabo necessitatibus quae quos praesentium nisi doloribus, ex pariatur impedit illum enim voluptate adipisci vel accusantium libero at, nesciunt quaerat rerum dignissimos animi distinctio repudiandae sunt est reprehenderit cumque. Necessitatibus deleniti, modi inventore a possimus voluptates deserunt. Veritatis at nihil molestias corporis aliquam quis commodi eaque sit? Officiis excepturi vero, a repellendus provident laborum eveniet eligendi rem minima pariatur incidunt cumque saepe quasi, magni non dolor, nostrum quia enim! Provident molestias nisi voluptatem iusto deleniti, debitis omnis voluptatibus inventore aliquid tempore ad qui minima maiores consequuntur autem! Blanditiis perferendis reiciendis esse totam explicabo obcaecati aliquid soluta impedit inventore! Voluptatibus illo quam natus voluptatum quia sint fuga voluptate error,
                 </div>
-                <div className="right-md pt-6" style={{ width: '28%' }}>
-                    <h2 className="text-sm font-semibold mb-4 text-gray-500">On this page</h2>
+                <div className="right-md pt-6 sticky top-20 z-20 h-[calc(100vh-4rem)] overflow-y-auto pb-8 pl-2" style={{ width: '28%' }}>
+                    <h2 className="text-sm font-semibold mb-2 text-gray-500">On This Page</h2>
+                    <div className="text-slate-500 text-sm py-2 ml-2">
+                        <h2>
+                            What to expect from here on out
+                        </h2>
+                        <div className="child-topics ml-4 my-2 flex flex-col gap-3">
+                            <span>Typography should be easy</span>
+                        </div>
+
+                    </div>
+                    <div className="text-slate-500 text-sm py-2 ml-2">
+                        <h2 className="mb-2">
+                            What if we stack headings?
+                        </h2>
+                        <div className="child-topics ml-4 my-2 flex flex-col gap-3">
+                            <span>We should make sure that looks good</span>
+                            <span>When a heading comes after a paragraph</span>
+                        </div>
+
+                    </div>
+                    <div className="text-slate-500 text-sm py-2 ml-2">
+                        <h2 className="mb-2">
+                            What if we stack headings?
+                        </h2>
+                        <div className="child-topics ml-4 my-2 flex flex-col gap-3">
+                            <span>We should make sure that looks good</span>
+                            <span>Typography should be easy</span>
+                        </div>
+
+                    </div>
+                    <div className="text-slate-500 text-sm py-2 ml-2">
+                        <h2 className="mb-2">
+                            GitHub falvoured markdown.
+                        </h2>
+                    </div>
                 </div>
             </div>
 
