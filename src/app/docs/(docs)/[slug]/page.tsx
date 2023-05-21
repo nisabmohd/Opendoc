@@ -1,6 +1,13 @@
 import Leftbar from "@/app/components/leftbar";
 
-export default async function Page() {
+type Props = {
+    params: {
+        slug: string
+    }
+}
+
+export default async function Page({ params: { slug } }: Props) {
+    console.log(slug);
     return (
         <div className="px-28 flex flex-row">
             <div className="flex-half">
