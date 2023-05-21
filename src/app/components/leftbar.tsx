@@ -1,6 +1,7 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react"
-import leftbarData from '../../content/leftbar.json'
+import leftbarData from '../content/leftbar.json'
 import Link from "next/link"
+
 type LeftbarProps = DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>
 
 export default function Leftbar(props: LeftbarProps) {
