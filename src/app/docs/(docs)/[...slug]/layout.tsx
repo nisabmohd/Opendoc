@@ -1,5 +1,6 @@
 import Navbar from "@/app/components/navbar"
 import { ReactNode } from "react"
+import './style.css'
 
 type DocsLayoutProps = {
     children: ReactNode
