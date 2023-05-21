@@ -1,6 +1,6 @@
 import gettingStartedIntro from "../../../content/docs/getting-started/Introduction.mdx";
 import codeBlocks from "../../../content/docs/documentation/code-blocks.mdx";
-import components from "../../../content/docs/documentation/Components.mdx";
+import components from "../../../content/docs/documentation/components.mdx";
 import docsIntro from "../../../content/docs/documentation/Introduction.mdx";
 import styleGuide from "../../../content/docs/documentation/style-guide.mdx";
 

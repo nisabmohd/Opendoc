@@ -15,7 +15,7 @@ export default async function Page({ params: { slug } }: Props) {
                 <Leftbar className="border-r-2 border-gray-200 mr-18 pt-10 sticky top-16 mr-12 z-20 h-[calc(100vh-4rem)] overflow-y-auto pb-8" />
             </div>
             <div className="md half-half-more pt-5 text-gray-800 flex flex-row justify-between">
-                <div className="left-md leading-8" style={{ width: '68%' }}>
+                <div className="left-md leading-8 markdown" style={{ width: '68%' }}>
                     {Markdown && <Markdown key={slug} />}
                 </div>
                 <div className="right-md pt-6 sticky top-20 z-20 h-[calc(100vh-4rem)] overflow-y-auto pb-8 pl-2" style={{ width: '28%' }}>

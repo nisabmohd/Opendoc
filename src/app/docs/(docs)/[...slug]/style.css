@@ -1,3 +1,20 @@
+.markdown {
+    line-height: 45px !important;
+}
+
 h1 {
-    font-size: 18px !important;
+    font-size: 38px !important;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #82919a;
+}
+
+.line {
+    border-bottom: 2px solid rgb(229, 231, 235);
+    margin: 6px 0;
 }
