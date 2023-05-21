@@ -7,7 +7,7 @@ type Props = {
     }
 }
 
-export default function Page({ params: { slug } }: Props) {
+export default async function Page({ params: { slug } }: Props) {
     const Markdown = getDocBySlug(slug)
     return (
         <div className="px-28 flex flex-row">
